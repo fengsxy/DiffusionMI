@@ -1,0 +1,43 @@
+src/benchmark/self-consistency/data/*
+# Ignore compiled files
+src/benchmark/bmi/__pycache__/
+
+# Ignore self-consistency data files
+src/benchmark/self-consistency/data/FashionMNIST/raw/
+src/benchmark/self-consistency/data/MNIST/raw/
+src/benchmark/self-consistency/data/cifar-10-batches-py/
+src/benchmark/self-consistency/data/cifar-10-python.tar.gz
+src/estimators/neural/data/
+
+# Ignore results
+*.txt
+
+
+*.pyc
+*.pyo
+/src/mi_estimators.egg-info
+*.json
+src/estimators/neural/checkpoints
+src/estimators/neural/lightning_logs
+*/checkpoints
+*/lightning_logs
+*/.ipynb_checkpoints
+*/.DS_Store
+*/__pycache__
+*/.pytest
+*.ipynb
+src/benchmark/self-consistency/checkpoints
+src/benchmark/self-consistency/lightning_logs
+src/benchmark/self-consistency/data
+src/benchmark/self-consistency/__pycache__
+
+
+src/benchmark/high_mutual_information/data
+src/benchmark/high_mutual_information/checkpoints
+src/benchmark/high_mutual_information/lightning_logs
+
+src/estimators/neural/__pycache__
+src/estimators/neural/figures
+src/estimators/neural/*.json
+src/estimators/neural/*.sh
+src/estimators/neural/*.png
